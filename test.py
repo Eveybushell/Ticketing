@@ -3,7 +3,7 @@ from unittest.mock import patch, MagicMock
 from queue import Queue
 import time
 
-from ticketQueue import Ticket, runQueue
+from ticketQueue import Ticket
 
 class TestTicketSystem(unittest.TestCase):
 
